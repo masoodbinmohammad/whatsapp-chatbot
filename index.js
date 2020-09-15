@@ -1,19 +1,26 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const natural = require('natural');
 const accountSid = process.env.accountSid;
 const authToken = process.env.authToken;
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
-
-
 const app = express();
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-
-
 app.get('/', function (req, res) {
   res.send('Hello World!');
+});
+
+natural.BayesClassifier.load('./trained-model/classifier.json', null, function(err, classifier) {
+  if(err){
+    console.log(err.message)
+  }
+  console.log(classifier.classify('i want to order'));
+  console.log(classifier.classify('how much is the price'));
+  console.log(classifier.classify('Hi bro'));
 });
 
 app.post('/replySMS', (req, res) => {
