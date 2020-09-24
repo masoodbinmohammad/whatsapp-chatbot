@@ -11,7 +11,7 @@ A simple whatsapp chatbot application using natural language processing and twil
 
 - Clone the application.
 
-- Run the app using nodemon
+- Run the app
 
 - Use ngrok to temperoraly create a public domain and map it local app that you have ran.
 
