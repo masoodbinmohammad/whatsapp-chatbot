@@ -1,4 +1,4 @@
-## whatsapp-chatbot
+## Whatsapp-chatbot
 
 A simple whatsapp chatbot application using twilio APIs.
 
