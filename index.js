@@ -1,8 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const classifier = require('./trained-model/classifier')
-const accountSid = process.env.accountSid;
-const authToken = process.env.authToken;
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
 const app = express();
