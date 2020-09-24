@@ -17,4 +17,4 @@ A simple whatsapp chatbot application using natural language processing and twil
 
 - Update the public URL on twilio WebHooks.
 
-- Edit classifier.js to train your model even more extent.
+- Edit classifier.js to train your model furher.
