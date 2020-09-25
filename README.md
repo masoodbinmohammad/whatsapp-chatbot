@@ -1,11 +1,11 @@
 ## Whatsapp-chatbot
 
-A simple whatsapp chatbot application using natural language processing and twilio.
+whatsapp chatbot application using natural and twilio.
 
 ## Dependencies
 
-- natural
-- twilio API.
+- natural (Library for natural language processing)
+- twilio API.(Sandbox for Whatsapp business API )
 
 ## Usage
 
