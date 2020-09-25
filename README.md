@@ -17,4 +17,4 @@ whatsapp chatbot application using natural and twilio.
 
 - Update the public URL on twilio WebHooks.
 
-- Edit classifier.js to train your model furher.
+- Edit classifier.js to train your model further.
